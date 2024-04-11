@@ -14,25 +14,26 @@ export default function Header() {
                 Gostack
             </Link>
             <Link
-                href="#"
+                href="/sobre"
                 className="text-lg text-muted-foreground transition-colors hover:text-foreground"
             >
                 Sobre
             </Link>
             <Link
-                href="/javascript"
+                href="/manifesto"
                 className="text-lg text-muted-foreground transition-colors hover:text-foreground"
             >
                 Manifesto
             </Link>
             <Link
-                href="#"
+                href="/apoiadores"
                 className="text-lg text-muted-foreground transition-colors hover:text-foreground"
             >
                 Apoiadores
             </Link>
             <Link
-                href="#"
+                target="_blank"
+                href="https://github.com/bennie-ferreira/gostack/issues/new"
                 className="text-lg text-muted-foreground transition-colors hover:text-foreground"
             >
                 Sugestões
@@ -82,7 +83,8 @@ export default function Header() {
                 </div>
             </form>
             <Link
-                href="#"
+                href="https://github.com/bennie-ferreira/gostack"
+                target="_blank"
                 className="text-muted-foreground transition-colors hover:text-foreground"
             >
                 <Github />
