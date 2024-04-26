@@ -1,10 +1,8 @@
 import {
     Card,
     CardContent,
-    CardFooter,
 } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Image from "next/image";
 
 export default function CardPost() {
@@ -23,16 +21,6 @@ export default function CardPost() {
                 <h3 className="font-bold text-3xl"> Guia para otimizar e inscrever seus aplicativos na playstore </h3>
                 <p className="leading-7 [&:not(:first-child)]:mt-2 text-muted-foreground"> Aprenda como otmizar e performar seu aplicativo para gerar receita </p>
             </CardContent>
-            {/* <CardFooter className="flex">
-                <Avatar>
-                    <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-                    <AvatarFallback>BN</AvatarFallback>
-                </Avatar>
-                <div className="flex flex-col ml-2">
-                    <p className="font-bold">Bennie ferreira</p>
-                    <p>Abril 1, 2024</p>
-                </div>
-            </CardFooter> */}
         </Card>
     )
 }
