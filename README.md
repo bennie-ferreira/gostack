@@ -1,4 +1,4 @@
-# Sobre o Gostack
+# Sobre o [Gostack](https://bennie-ferreira.github.io/gostack/)
 Gostack é um acervo de tutoriais, dicas e artigos no mundo da programação, a ideia é reunir conhecimento importantes e que realmente ajude as pessoas no dia a dia e para quem está iniciando também
 
 ## Situação do projeto
