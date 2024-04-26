@@ -2,36 +2,36 @@ import Link from "next/link"
 import { Coffee, Github } from "lucide-react"
 
 export default function Footer() {
-    return (<footer className="bg-black h-full">
-        <div className="grid grid-cols-3 gap-4 h-full p-10">
+    return (<footer className="bg-muted/40 h-full">
+        <div className="container grid lg:grid-cols-3 md:grid-cols-2 gap-4 sm:grid-cols-2 ssm:grid-cols-1 mx-auto gap-6 h-full p-12">
             <div className="flex-col justify-center text-center align-center">
                 <Link
                     href="/"
-                    className="text-3xl font-bold text-white"
+                    className="text-3xl font-bold "
                 >
                     Gostack
                 </Link>
-                <p className="text-white">Gostack é um projeto focado em contribuir com tutoriais e artigos no mundo da tecnologia da informação TI.</p>
+                <p className="text-muted-foreground p-2">Gostack é um projeto focado em contribuir com tutoriais e artigos no mundo da tecnologia da informação TI.</p>
             </div>
-            <div className="flex justify-center text-white">
+            <div className="flex justify-center ">
                 <ul>
                     <li>
-                        <Link href="#">
+                        <Link href="#" className="text-muted-foreground transition-colors hover:text-foreground">
                             Sobre
                         </Link>
                     </li>
                     <li>
-                        <Link href="#">
+                        <Link href="#" className="text-muted-foreground transition-colors hover:text-foreground">
                             Manifesto
                         </Link>
                     </li>
                     <li>
-                        <Link href="#">
+                        <Link href="#" className="text-muted-foreground transition-colors hover:text-foreground">
                             Apoiadores
                         </Link>
                     </li>
                     <li>
-                        <Link href="#">
+                        <Link href="#" className="text-muted-foreground transition-colors hover:text-foreground">
                             Sugestões
                         </Link>
                     </li>
@@ -41,21 +41,21 @@ export default function Footer() {
                 <Link
                     href="https://github.com/bennie-ferreira/gostack"
                     target="_blank"
-                    className="text-muted-foreground transition-colors hover:text-foreground text-white"
+                    className="text-muted-foreground transition-colors hover:text-foreground"
                 >
                     <Github />
                 </Link>
                 <Link
                     href="#"
                     target="_blank"
-                    className="text-muted-foreground transition-colors hover:text-foreground text-white"
+                    className="text-muted-foreground transition-colors hover:text-foreground"
                 >
                     <Coffee />
                 </Link>
             </div>
         </div>
-        <div className="flex justify-center pb-6">
-            <p className="text-white text-center">Desenvolvido com ❤️ por <b>Bennie Ferreira</b></p>
+        <div className="flex justify-center pb-12">
+            <p className=" text-center">Desenvolvido com ❤️ por <b>Bennie Ferreira</b></p>
         </div>
     </footer>)
 }
