@@ -3,7 +3,7 @@ import { Coffee, Github } from "lucide-react"
 
 export default function Footer() {
     return (<footer className="bg-muted/40 h-full">
-        <div className="container mx-auto grid grid-cols-3 gap-4 h-full p-12">
+        <div className="container grid lg:grid-cols-3 md:grid-cols-2 gap-4 sm:grid-cols-2 ssm:grid-cols-1 mx-auto gap-6 h-full p-12">
             <div className="flex-col justify-center text-center align-center">
                 <Link
                     href="/"
@@ -11,7 +11,7 @@ export default function Footer() {
                 >
                     Gostack
                 </Link>
-                <p className="text-muted-foreground p-8">Gostack é um projeto focado em contribuir com tutoriais e artigos no mundo da tecnologia da informação TI.</p>
+                <p className="text-muted-foreground p-2">Gostack é um projeto focado em contribuir com tutoriais e artigos no mundo da tecnologia da informação TI.</p>
             </div>
             <div className="flex justify-center ">
                 <ul>
